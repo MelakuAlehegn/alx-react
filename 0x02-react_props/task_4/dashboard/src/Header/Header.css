@@ -1,0 +1,18 @@
+:root {
+    --body-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --color-primary: #e11d3f;
+}
+
+.App-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 4px var(--color-primary) solid;
+}
+
+.App-header img {
+    height: 9rem;
+}
+
+.App-header h1 {
+    color: var(--color-primary);
+}

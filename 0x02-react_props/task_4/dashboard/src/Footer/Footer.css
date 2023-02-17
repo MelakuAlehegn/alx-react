@@ -1,0 +1,11 @@
+:root {
+    --body-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --color-primary: #e11d3f;
+}
+
+.App-footer {
+    text-align: center;
+    border-top: 4px var(--color-primary) solid;
+    font-style: italic;
+    padding: 1.2rem;
+}

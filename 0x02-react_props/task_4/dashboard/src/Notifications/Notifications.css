@@ -1,0 +1,19 @@
+.Notifications {
+    border: 2px dotted #e11d3f;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Notifications button {
+    margin-left: 2px;
+}
+
+[data-notification-type="default"] {
+    color: blue;
+}
+
+[data-urgent],
+[data-notification-type="urgent"] {
+    color: red;
+}

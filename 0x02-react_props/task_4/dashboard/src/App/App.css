@@ -1,0 +1,9 @@
+:root {
+  --body-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --color-primary: #e11d3f;
+}
+
+.App {
+  font-family: var(--body-font);
+  margin: 1rem;
+}
